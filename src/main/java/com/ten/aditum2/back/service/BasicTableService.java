@@ -1,9 +1,9 @@
 package com.ten.aditum2.back.service;
 
-import com.ten.aditum.back.controller.BaseController;
-import com.ten.aditum.back.entity.Device;
-import com.ten.aditum.back.entity.Person;
-import com.ten.aditum.back.entity.Record;
+import com.ten.aditum2.back.controller.BaseController;
+import com.ten.aditum2.back.entity.Device;
+import com.ten.aditum2.back.entity.Person;
+import com.ten.aditum2.back.entity.Record;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

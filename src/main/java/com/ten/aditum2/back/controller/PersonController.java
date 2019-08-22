@@ -1,11 +1,11 @@
 package com.ten.aditum2.back.controller;
 
-import com.ten.aditum.back.entity.Person;
-import com.ten.aditum.back.model.AditumCode;
-import com.ten.aditum.back.model.ResultModel;
-import com.ten.aditum.back.service.PersonService;
-import com.ten.aditum.back.util.TimeGenerator;
-import com.ten.aditum.back.util.UidGenerator;
+import com.ten.aditum2.back.entity.Person;
+import com.ten.aditum2.back.model.AditumCode;
+import com.ten.aditum2.back.model.ResultModel;
+import com.ten.aditum2.back.service.PersonService;
+import com.ten.aditum2.back.util.TimeGenerator;
+import com.ten.aditum2.back.util.UidGenerator;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestBody;

@@ -1,9 +1,9 @@
 package com.ten.aditum2.back.service;
 
-import com.ten.aditum.back.entity.PersonasPortrait;
-import com.ten.aditum.back.mapper.PersonasPortraitDao;
-import com.ten.aditum.back.util.TimeGenerator;
-import com.ten.aditum.back.vo.Personas;
+import com.ten.aditum2.back.entity.PersonasPortrait;
+import com.ten.aditum2.back.mapper.PersonasPortraitDao;
+import com.ten.aditum2.back.util.TimeGenerator;
+import com.ten.aditum2.back.vo.Personas;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;

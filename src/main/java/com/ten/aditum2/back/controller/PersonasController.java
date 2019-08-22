@@ -1,12 +1,12 @@
 package com.ten.aditum2.back.controller;
 
-import com.ten.aditum.back.entity.PersonasPortrait;
-import com.ten.aditum.back.model.AditumCode;
-import com.ten.aditum.back.model.ResultModel;
-import com.ten.aditum.back.service.PersonasLabelService;
-import com.ten.aditum.back.service.PersonasPortraitService;
-import com.ten.aditum.back.service.PersonasService;
-import com.ten.aditum.back.vo.Personas;
+import com.ten.aditum2.back.entity.PersonasPortrait;
+import com.ten.aditum2.back.model.AditumCode;
+import com.ten.aditum2.back.model.ResultModel;
+import com.ten.aditum2.back.service.PersonasLabelService;
+import com.ten.aditum2.back.service.PersonasPortraitService;
+import com.ten.aditum2.back.service.PersonasService;
+import com.ten.aditum2.back.vo.Personas;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;

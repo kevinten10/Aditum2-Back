@@ -1,10 +1,10 @@
 package com.ten.aditum2.back.personas.model;
 
-import com.ten.aditum.back.BaseAnalysor;
-import com.ten.aditum.back.entity.AccessTime;
-import com.ten.aditum.back.entity.Person;
-import com.ten.aditum.back.entity.PersonasLabel;
-import com.ten.aditum.back.vo.Personas;
+import com.ten.aditum2.back.BaseAnalysor;
+import com.ten.aditum2.back.entity.AccessTime;
+import com.ten.aditum2.back.entity.Person;
+import com.ten.aditum2.back.entity.PersonasLabel;
+import com.ten.aditum2.back.vo.Personas;
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
@@ -15,7 +15,7 @@ import org.springframework.stereotype.Component;
 import java.util.ArrayList;
 import java.util.List;
 
-import static com.ten.aditum.back.util.TimeGenerator.getTotalSec;
+import static com.ten.aditum2.back.util.TimeGenerator.getTotalSec;
 
 /**
  * 基于早晚访问时间的二维分析

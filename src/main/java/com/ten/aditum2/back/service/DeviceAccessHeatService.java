@@ -1,7 +1,7 @@
 package com.ten.aditum2.back.service;
 
-import com.ten.aditum.back.entity.DeviceAccessHeat;
-import com.ten.aditum.back.mapper.DeviceAccessHeatDao;
+import com.ten.aditum2.back.entity.DeviceAccessHeat;
+import com.ten.aditum2.back.mapper.DeviceAccessHeatDao;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;

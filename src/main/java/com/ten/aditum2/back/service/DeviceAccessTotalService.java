@@ -1,7 +1,7 @@
 package com.ten.aditum2.back.service;
 
-import com.ten.aditum.back.entity.DeviceAccessTotal;
-import com.ten.aditum.back.mapper.DeviceAccessTotalDao;
+import com.ten.aditum2.back.entity.DeviceAccessTotal;
+import com.ten.aditum2.back.mapper.DeviceAccessTotalDao;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;

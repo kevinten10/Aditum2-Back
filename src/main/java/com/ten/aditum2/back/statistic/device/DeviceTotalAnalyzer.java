@@ -1,11 +1,11 @@
 package com.ten.aditum2.back.statistic.device;
 
 
-import com.ten.aditum.back.BaseAnalysor;
-import com.ten.aditum.back.entity.Device;
-import com.ten.aditum.back.entity.DeviceAccessTotal;
-import com.ten.aditum.back.entity.Record;
-import com.ten.aditum.back.util.TimeGenerator;
+import com.ten.aditum2.back.BaseAnalysor;
+import com.ten.aditum2.back.entity.Device;
+import com.ten.aditum2.back.entity.DeviceAccessTotal;
+import com.ten.aditum2.back.entity.Record;
+import com.ten.aditum2.back.util.TimeGenerator;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.scheduling.annotation.EnableScheduling;
@@ -16,7 +16,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.atomic.AtomicInteger;
 
-import static com.ten.aditum.back.util.TimeGenerator.formatDate;
+import static com.ten.aditum2.back.util.TimeGenerator.formatDate;
 
 
 @Slf4j

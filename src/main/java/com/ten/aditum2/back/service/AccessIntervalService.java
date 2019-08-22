@@ -1,7 +1,7 @@
 package com.ten.aditum2.back.service;
 
-import com.ten.aditum.back.entity.AccessInterval;
-import com.ten.aditum.back.mapper.AccessIntervalDao;
+import com.ten.aditum2.back.entity.AccessInterval;
+import com.ten.aditum2.back.mapper.AccessIntervalDao;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;

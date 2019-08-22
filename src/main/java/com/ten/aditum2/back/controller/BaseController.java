@@ -1,7 +1,7 @@
 package com.ten.aditum2.back.controller;
 
 
-import com.ten.aditum.back.model.ResultModel;
+import com.ten.aditum2.back.model.ResultModel;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;

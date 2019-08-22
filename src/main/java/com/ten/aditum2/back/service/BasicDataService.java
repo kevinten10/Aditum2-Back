@@ -1,12 +1,12 @@
 package com.ten.aditum2.back.service;
 
-import com.ten.aditum.back.controller.BaseController;
-import com.ten.aditum.back.entity.*;
-import com.ten.aditum.back.util.TimeGenerator;
-import com.ten.aditum.back.vo.BasicCountData;
-import com.ten.aditum.back.vo.BasicDeviceCountData;
-import com.ten.aditum.back.vo.BasicDeviceWeekendData;
-import com.ten.aditum.back.vo.BasicLabelData;
+import com.ten.aditum2.back.controller.BaseController;
+import com.ten.aditum2.back.entity.*;
+import com.ten.aditum2.back.util.TimeGenerator;
+import com.ten.aditum2.back.vo.BasicCountData;
+import com.ten.aditum2.back.vo.BasicDeviceCountData;
+import com.ten.aditum2.back.vo.BasicDeviceWeekendData;
+import com.ten.aditum2.back.vo.BasicLabelData;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

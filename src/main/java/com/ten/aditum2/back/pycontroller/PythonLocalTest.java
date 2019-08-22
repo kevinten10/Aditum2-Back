@@ -9,7 +9,7 @@ public class PythonLocalTest {
         String line = null;
         String[] arguments = new String[]{
                 "D:\\Users\\shihaowang\\AppData\\Local\\Programs\\Python\\Python37\\python.exe",
-                "D:\\Users\\shihaowang\\Desktop\\Aditum-Personas\\com.ten.aditum\\personas\\AccessTimeClusteringModel.py"};
+                "D:\\Users\\shihaowang\\Desktop\\Aditum-Personas\\com.ten.aditum2.personas\\AccessTimeClusteringModel.py"};
         try {
             Process process = Runtime.getRuntime().exec(arguments);
             BufferedReader in = new BufferedReader(new InputStreamReader(process.getInputStream()));

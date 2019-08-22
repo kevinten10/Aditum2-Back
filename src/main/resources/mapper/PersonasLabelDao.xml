@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
-<mapper namespace="com.ten.aditum.back.mapper.PersonasLabelDao">
+<mapper namespace="com.ten.aditum2.back.mapper.PersonasLabelDao">
 
     <!--auto generated Code-->
-    <resultMap id="AllColumnMap" type="com.ten.aditum.back.entity.PersonasLabel">
+    <resultMap id="AllColumnMap" type="com.ten.aditum2.back.entity.PersonasLabel">
         <result column="id" property="id"/>
         <result column="label_id" property="labelId"/>
         <result column="label_name" property="labelName"/>

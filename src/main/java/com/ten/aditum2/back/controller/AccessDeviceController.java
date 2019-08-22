@@ -1,12 +1,12 @@
 package com.ten.aditum2.back.controller;
 
-import com.ten.aditum.back.entity.*;
-import com.ten.aditum.back.model.AditumCode;
-import com.ten.aditum.back.model.ResultModel;
-import com.ten.aditum.back.service.DeviceAccessCountService;
-import com.ten.aditum.back.service.DeviceAccessHeatService;
-import com.ten.aditum.back.service.DeviceAccessLogService;
-import com.ten.aditum.back.service.DeviceAccessTotalService;
+import com.ten.aditum2.back.entity.*;
+import com.ten.aditum2.back.model.AditumCode;
+import com.ten.aditum2.back.model.ResultModel;
+import com.ten.aditum2.back.service.DeviceAccessCountService;
+import com.ten.aditum2.back.service.DeviceAccessHeatService;
+import com.ten.aditum2.back.service.DeviceAccessLogService;
+import com.ten.aditum2.back.service.DeviceAccessTotalService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;

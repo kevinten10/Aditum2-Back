@@ -1,15 +1,15 @@
 package com.ten.aditum2.back.personas.label;
 
 
-import com.github.pagehelper.util.StringUtil;
-import com.ten.aditum.back.BaseAnalysor;
-import com.ten.aditum.back.entity.Person;
-import com.ten.aditum.back.vo.Personas;
+import com.ten.aditum2.back.BaseAnalysor;
+import com.ten.aditum2.back.entity.Person;
+import com.ten.aditum2.back.vo.Personas;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.scheduling.annotation.EnableScheduling;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
+import org.springframework.util.StringUtils;
 
 import java.util.List;
 import java.util.regex.Pattern;
@@ -41,7 +41,7 @@ public class PhoneAnalysor extends BaseAnalysor {
      */
     private void analysisPerson(Person person) {
         String phone = person.getPersonnelPhone();
-        if (StringUtil.isEmpty(phone)) {
+        if (StringUtils.isEmpty(phone)) {
             log.warn("用户 {} 没有电话号", person.getPersonnelName());
             return;
         }

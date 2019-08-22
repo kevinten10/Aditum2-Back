@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
-<mapper namespace="com.ten.aditum.back.mapper.DeviceAccessHeatDao">
+<mapper namespace="com.ten.aditum2.back.mapper.DeviceAccessHeatDao">
 
     <!--auto generated Code-->
-    <resultMap id="AllColumnMap" type="com.ten.aditum.back.entity.DeviceAccessHeat">
+    <resultMap id="AllColumnMap" type="com.ten.aditum2.back.entity.DeviceAccessHeat">
         <result column="id" property="id"/>
         <result column="imei" property="imei"/>
         <result column="current_hour_time" property="currentHourTime"/>

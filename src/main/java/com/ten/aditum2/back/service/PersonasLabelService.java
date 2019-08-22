@@ -1,7 +1,7 @@
 package com.ten.aditum2.back.service;
 
-import com.ten.aditum.back.entity.PersonasLabel;
-import com.ten.aditum.back.mapper.PersonasLabelDao;
+import com.ten.aditum2.back.entity.PersonasLabel;
+import com.ten.aditum2.back.mapper.PersonasLabelDao;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;

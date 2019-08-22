@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
-<mapper namespace="com.ten.aditum.back.mapper.AccessIntervalDao">
+<mapper namespace="com.ten.aditum2.back.mapper.AccessIntervalDao">
 
     <!--auto generated Code-->
-    <resultMap id="AllColumnMap" type="com.ten.aditum.back.entity.AccessInterval">
+    <resultMap id="AllColumnMap" type="com.ten.aditum2.back.entity.AccessInterval">
         <result column="id" property="id"/>
         <result column="personnel_id" property="personnelId"/>
         <result column="mean_time_retention" property="meanTimeRetention"/>

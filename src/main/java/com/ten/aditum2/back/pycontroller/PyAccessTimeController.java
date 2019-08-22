@@ -1,8 +1,8 @@
 package com.ten.aditum2.back.pycontroller;
 
-import com.ten.aditum.back.config.PythonConstants;
-import com.ten.aditum.back.model.AditumCode;
-import com.ten.aditum.back.model.ResultModel;
+import com.ten.aditum2.back.config.PythonConstants;
+import com.ten.aditum2.back.model.AditumCode;
+import com.ten.aditum2.back.model.ResultModel;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;

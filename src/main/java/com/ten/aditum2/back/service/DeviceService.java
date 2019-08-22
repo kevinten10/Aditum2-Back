@@ -1,7 +1,7 @@
 package com.ten.aditum2.back.service;
 
-import com.ten.aditum.back.entity.Device;
-import com.ten.aditum.back.mapper.DeviceDao;
+import com.ten.aditum2.back.entity.Device;
+import com.ten.aditum2.back.mapper.DeviceDao;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;

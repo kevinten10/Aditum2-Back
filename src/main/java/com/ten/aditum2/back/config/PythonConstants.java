@@ -6,7 +6,7 @@ public interface PythonConstants {
 
     String BASE64_PREFIX = "data:image/png;base64,";
 
-    String PTTHON_PROGRAM_BATH_PATH = "D:\\Aditum\\Aditum-Personas\\com.ten.aditum\\personas\\";
+    String PTTHON_PROGRAM_BATH_PATH = "D:\\Aditum\\Aditum-Personas\\com.ten.aditum2.personas\\";
 
     /**
      * 缓存有效时间十二小时

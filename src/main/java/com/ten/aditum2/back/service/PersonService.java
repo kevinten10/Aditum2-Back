@@ -1,7 +1,7 @@
 package com.ten.aditum2.back.service;
 
-import com.ten.aditum.back.entity.Person;
-import com.ten.aditum.back.mapper.PersonDao;
+import com.ten.aditum2.back.entity.Person;
+import com.ten.aditum2.back.mapper.PersonDao;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;

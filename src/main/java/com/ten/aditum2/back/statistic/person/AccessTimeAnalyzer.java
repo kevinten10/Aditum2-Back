@@ -1,11 +1,11 @@
 package com.ten.aditum2.back.statistic.person;
 
 
-import com.ten.aditum.back.BaseAnalysor;
-import com.ten.aditum.back.entity.AccessTime;
-import com.ten.aditum.back.entity.Person;
-import com.ten.aditum.back.entity.Record;
-import com.ten.aditum.back.util.TimeGenerator;
+import com.ten.aditum2.back.BaseAnalysor;
+import com.ten.aditum2.back.entity.AccessTime;
+import com.ten.aditum2.back.entity.Person;
+import com.ten.aditum2.back.entity.Record;
+import com.ten.aditum2.back.util.TimeGenerator;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.scheduling.annotation.EnableScheduling;
@@ -17,7 +17,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import static com.ten.aditum.back.util.TimeGenerator.*;
+import static com.ten.aditum2.back.util.TimeGenerator.*;
 
 @Slf4j
 @Component

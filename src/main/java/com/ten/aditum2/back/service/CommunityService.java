@@ -1,7 +1,7 @@
 package com.ten.aditum2.back.service;
 
-import com.ten.aditum.back.entity.Community;
-import com.ten.aditum.back.mapper.CommunityDao;
+import com.ten.aditum2.back.entity.Community;
+import com.ten.aditum2.back.mapper.CommunityDao;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;

@@ -1,13 +1,13 @@
 package com.ten.aditum2.back.controller;
 
-import com.ten.aditum.back.entity.AccessAddress;
-import com.ten.aditum.back.entity.AccessTime;
-import com.ten.aditum.back.entity.Person;
-import com.ten.aditum.back.model.AditumCode;
-import com.ten.aditum.back.model.ResultModel;
-import com.ten.aditum.back.service.AccessAddressService;
-import com.ten.aditum.back.service.AccessIntervalService;
-import com.ten.aditum.back.service.AccessTimeService;
+import com.ten.aditum2.back.entity.AccessAddress;
+import com.ten.aditum2.back.entity.AccessTime;
+import com.ten.aditum2.back.entity.Person;
+import com.ten.aditum2.back.model.AditumCode;
+import com.ten.aditum2.back.model.ResultModel;
+import com.ten.aditum2.back.service.AccessAddressService;
+import com.ten.aditum2.back.service.AccessIntervalService;
+import com.ten.aditum2.back.service.AccessTimeService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;

@@ -1,9 +1,9 @@
 package com.ten.aditum2.back.service;
 
-import com.ten.aditum.back.entity.PersonasLabel;
-import com.ten.aditum.back.entity.PersonasPortrait;
-import com.ten.aditum.back.util.TimeGenerator;
-import com.ten.aditum.back.vo.Personas;
+import com.ten.aditum2.back.entity.PersonasLabel;
+import com.ten.aditum2.back.entity.PersonasPortrait;
+import com.ten.aditum2.back.util.TimeGenerator;
+import com.ten.aditum2.back.vo.Personas;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

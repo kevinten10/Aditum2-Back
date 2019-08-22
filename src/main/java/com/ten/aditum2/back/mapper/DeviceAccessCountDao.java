@@ -1,6 +1,6 @@
 package com.ten.aditum2.back.mapper;
 
-import com.ten.aditum.back.entity.DeviceAccessCount;
+import com.ten.aditum2.back.entity.DeviceAccessCount;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.List;

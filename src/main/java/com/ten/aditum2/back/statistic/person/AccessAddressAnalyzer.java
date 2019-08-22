@@ -2,9 +2,9 @@ package com.ten.aditum2.back.statistic.person;
 
 
 import com.alibaba.fastjson.JSON;
-import com.ten.aditum.back.BaseAnalysor;
-import com.ten.aditum.back.entity.*;
-import com.ten.aditum.back.util.TimeGenerator;
+import com.ten.aditum2.back.BaseAnalysor;
+import com.ten.aditum2.back.entity.*;
+import com.ten.aditum2.back.util.TimeGenerator;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.scheduling.annotation.EnableScheduling;

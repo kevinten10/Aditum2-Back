@@ -1,7 +1,7 @@
 package com.ten.aditum2.back.service;
 
-import com.ten.aditum.back.entity.AccessAddress;
-import com.ten.aditum.back.mapper.AccessAddressDao;
+import com.ten.aditum2.back.entity.AccessAddress;
+import com.ten.aditum2.back.mapper.AccessAddressDao;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
