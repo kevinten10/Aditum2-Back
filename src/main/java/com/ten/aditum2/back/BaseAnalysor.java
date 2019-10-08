@@ -1,10 +1,14 @@
 package com.ten.aditum2.back;
 
-import com.ten.aditum2.back.entity.AccessTime;
-import com.ten.aditum2.back.entity.Community;
-import com.ten.aditum2.back.entity.Device;
-import com.ten.aditum2.back.entity.Person;
-import com.ten.aditum2.back.service.*;
+import com.ten.aditum2.back.model.entity.AccessTime;
+import com.ten.aditum2.back.model.entity.Community;
+import com.ten.aditum2.back.model.entity.Device;
+import com.ten.aditum2.back.model.entity.Person;
+import com.ten.aditum2.back.service.data.CommunityService;
+import com.ten.aditum2.back.service.data.DeviceService;
+import com.ten.aditum2.back.service.data.PersonService;
+import com.ten.aditum2.back.service.data.RecordService;
+import com.ten.aditum2.back.service.table.*;
 import lombok.Getter;
 import lombok.extern.slf4j.Slf4j;
 

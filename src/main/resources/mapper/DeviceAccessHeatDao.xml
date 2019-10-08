@@ -3,7 +3,7 @@
 <mapper namespace="com.ten.aditum2.back.mapper.DeviceAccessHeatDao">
 
     <!--auto generated Code-->
-    <resultMap id="AllColumnMap" type="com.ten.aditum2.back.entity.DeviceAccessHeat">
+    <resultMap id="AllColumnMap" type="com.ten.aditum2.back.model.entity.DeviceAccessHeat">
         <result column="id" property="id"/>
         <result column="imei" property="imei"/>
         <result column="current_hour_time" property="currentHourTime"/>

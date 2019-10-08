@@ -3,7 +3,7 @@
 <mapper namespace="com.ten.aditum2.back.mapper.CommunityDao">
 
     <!--auto generated Code-->
-    <resultMap id="AllColumnMap" type="com.ten.aditum2.back.entity.Community">
+    <resultMap id="AllColumnMap" type="com.ten.aditum2.back.model.entity.Community">
         <result column="id" property="id"/>
         <result column="community_id" property="communityId"/>
         <result column="community_name" property="communityName"/>

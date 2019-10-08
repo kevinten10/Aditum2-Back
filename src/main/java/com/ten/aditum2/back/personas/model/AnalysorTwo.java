@@ -1,11 +1,11 @@
 package com.ten.aditum2.back.personas.model;
 
 import com.ten.aditum2.back.BaseAnalysor;
-import com.ten.aditum2.back.entity.AccessTime;
-import com.ten.aditum2.back.entity.Person;
-import com.ten.aditum2.back.entity.PersonasLabel;
+import com.ten.aditum2.back.model.entity.AccessTime;
+import com.ten.aditum2.back.model.entity.Person;
+import com.ten.aditum2.back.model.entity.PersonasLabel;
 import com.ten.aditum2.back.util.TimeGenerator;
-import com.ten.aditum2.back.vo.Personas;
+import com.ten.aditum2.back.model.vo.Personas;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.scheduling.annotation.EnableScheduling;

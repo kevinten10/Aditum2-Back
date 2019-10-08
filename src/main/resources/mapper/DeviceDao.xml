@@ -3,7 +3,7 @@
 <mapper namespace="com.ten.aditum2.back.mapper.DeviceDao">
 
     <!--auto generated Code-->
-    <resultMap id="AllColumnMap" type="com.ten.aditum2.back.entity.Device">
+    <resultMap id="AllColumnMap" type="com.ten.aditum2.back.model.entity.Device">
         <result column="id" property="id"/>
         <result column="imei" property="imei"/>
         <result column="alias" property="alias"/>

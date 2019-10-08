@@ -1,9 +1,9 @@
 package com.ten.aditum2.back.personas.label;
 
 import com.ten.aditum2.back.BaseAnalysor;
-import com.ten.aditum2.back.entity.AccessTime;
-import com.ten.aditum2.back.entity.Person;
-import com.ten.aditum2.back.vo.Personas;
+import com.ten.aditum2.back.model.entity.AccessTime;
+import com.ten.aditum2.back.model.entity.Person;
+import com.ten.aditum2.back.model.vo.Personas;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.extern.slf4j.Slf4j;

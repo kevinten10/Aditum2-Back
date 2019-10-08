@@ -3,7 +3,7 @@
 <mapper namespace="com.ten.aditum2.back.mapper.AccessTimeDao">
 
     <!--auto generated Code-->
-    <resultMap id="AllColumnMap" type="com.ten.aditum2.back.entity.AccessTime">
+    <resultMap id="AllColumnMap" type="com.ten.aditum2.back.model.entity.AccessTime">
         <result column="id" property="id"/>
         <result column="personnel_id" property="personnelId"/>
         <result column="average_earliest_access_time" property="averageEarliestAccessTime"/>

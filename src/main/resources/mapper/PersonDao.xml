@@ -3,7 +3,7 @@
 <mapper namespace="com.ten.aditum2.back.mapper.PersonDao">
 
     <!--auto generated Code-->
-    <resultMap id="AllColumnMap" type="com.ten.aditum2.back.entity.Person">
+    <resultMap id="AllColumnMap" type="com.ten.aditum2.back.model.entity.Person">
         <result column="id" property="id"/>
         <result column="personnel_id" property="personnelId"/>
         <result column="personnel_name" property="personnelName"/>

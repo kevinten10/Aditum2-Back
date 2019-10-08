@@ -2,9 +2,9 @@ package com.ten.aditum2.back.statistic.device;
 
 
 import com.ten.aditum2.back.BaseAnalysor;
-import com.ten.aditum2.back.entity.Device;
-import com.ten.aditum2.back.entity.DeviceAccessTotal;
-import com.ten.aditum2.back.entity.Record;
+import com.ten.aditum2.back.model.entity.Device;
+import com.ten.aditum2.back.model.entity.DeviceAccessTotal;
+import com.ten.aditum2.back.model.entity.Record;
 import com.ten.aditum2.back.util.TimeGenerator;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;

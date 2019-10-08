@@ -3,7 +3,7 @@
 <mapper namespace="com.ten.aditum2.back.mapper.AccessAddressDao">
 
     <!--auto generated Code-->
-    <resultMap id="AllColumnMap" type="com.ten.aditum2.back.entity.AccessAddress">
+    <resultMap id="AllColumnMap" type="com.ten.aditum2.back.model.entity.AccessAddress">
         <result column="id" property="id"/>
         <result column="personnel_id" property="personnelId"/>
         <result column="first_address" property="firstAddress"/>

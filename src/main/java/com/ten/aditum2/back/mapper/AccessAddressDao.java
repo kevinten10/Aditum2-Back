@@ -1,6 +1,6 @@
 package com.ten.aditum2.back.mapper;
 
-import com.ten.aditum2.back.entity.AccessAddress;
+import com.ten.aditum2.back.model.entity.AccessAddress;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.List;

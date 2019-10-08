@@ -3,7 +3,7 @@
 <mapper namespace="com.ten.aditum2.back.mapper.DeviceAccessLogDao">
 
     <!--auto generated Code-->
-    <resultMap id="AllColumnMap" type="com.ten.aditum2.back.entity.DeviceAccessLog">
+    <resultMap id="AllColumnMap" type="com.ten.aditum2.back.model.entity.DeviceAccessLog">
         <result column="id" property="id"/>
         <result column="imei" property="imei"/>
         <result column="record_id" property="recordId"/>

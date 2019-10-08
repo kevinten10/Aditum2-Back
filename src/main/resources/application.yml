@@ -16,4 +16,4 @@ spring:
 
 mybatis:
   mapperLocations: classpath*:mapper/*.xml
-  typeAliasesPackage: com.ten.aditum2.back.entity
+  typeAliasesPackage: com.ten.aditum2.back.model.entity

@@ -3,7 +3,7 @@
 <mapper namespace="com.ten.aditum2.back.mapper.AccessIntervalDao">
 
     <!--auto generated Code-->
-    <resultMap id="AllColumnMap" type="com.ten.aditum2.back.entity.AccessInterval">
+    <resultMap id="AllColumnMap" type="com.ten.aditum2.back.model.entity.AccessInterval">
         <result column="id" property="id"/>
         <result column="personnel_id" property="personnelId"/>
         <result column="mean_time_retention" property="meanTimeRetention"/>

@@ -1,6 +1,6 @@
 package com.ten.aditum2.back.mapper;
 
-import com.ten.aditum2.back.entity.Person;
+import com.ten.aditum2.back.model.entity.Person;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.List;

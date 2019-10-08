@@ -1,9 +1,9 @@
 package com.ten.aditum2.back.statistic.base;
 
 import com.ten.aditum2.back.BaseAnalysor;
-import com.ten.aditum2.back.entity.Community;
-import com.ten.aditum2.back.entity.Device;
-import com.ten.aditum2.back.entity.Person;
+import com.ten.aditum2.back.model.entity.Community;
+import com.ten.aditum2.back.model.entity.Device;
+import com.ten.aditum2.back.model.entity.Person;
 import com.ten.aditum2.back.util.TimeGenerator;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
